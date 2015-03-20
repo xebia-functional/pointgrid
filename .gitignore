@@ -1,0 +1,10 @@
+.DS_Store
+target/
+project/project/
+project/target/
+.idea
+.idea_modules
+gen/
+local.properties
+debug.properties
+release.properties
