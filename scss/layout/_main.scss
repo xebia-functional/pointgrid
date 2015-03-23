@@ -19,7 +19,7 @@ main {
         background: url(../img/background_main.jpg) no-repeat;
         background-position: 50% 0;
         @include image-size;
-        opacity: 0.55;
+        opacity: 0.6;
         top: 0;
         left: 0;
         position: absolute;
@@ -30,7 +30,7 @@ main {
     
     .description {
         position: relative;
-         @extend .animated-home;
+        @extend .animated-home;
         @extend .fadeInDown;
         display: table-cell;
         vertical-align: middle;
