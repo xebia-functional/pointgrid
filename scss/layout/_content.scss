@@ -9,6 +9,11 @@ section {
         padding: 60px 0;
     }
     
+    .step {
+        @extend .animated-home;
+        @extend .fadeInUp;
+    }
+    
     img {
         width: 63px;
         height: auto;
