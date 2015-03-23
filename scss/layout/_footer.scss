@@ -5,6 +5,8 @@
 footer {
     padding: 50px 0;
     background: #F5F5F5;
+    position: relative;
+    z-index: 30;
     
     @media (max-width: $screen-sm-min) {
         padding: 20px 0;

@@ -5,6 +5,8 @@
 section {
     padding: 100px 0;
     background: #fff;
+    position: relative;
+    z-index: 20;
     @media (max-width: $screen-sm-min) {
         padding: 60px 0;
     }
