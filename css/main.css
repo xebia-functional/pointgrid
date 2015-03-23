@@ -7606,7 +7606,8 @@ body {
   padding-left: 45px;
   font-size: 18px;
   letter-spacing: 2px;
-  position: relative; }
+  position: relative;
+  text-transform: uppercase; }
   .navbar-brand:before {
     content: "";
     background-image: url(../img/logo_pointgrid.svg);
@@ -7648,7 +7649,7 @@ header {
   text-transform: uppercase; }
   header li {
     font-size: 13px;
-    letter-spacing: 1px; }
+    letter-spacing: 2px; }
 
 main {
   width: 100%;
@@ -7703,7 +7704,8 @@ main {
           font-size: 35px;
           line-height: 40px; } }
     main .description a.button {
-      padding: 14px 50px;
+      padding: 14px 0;
+      width: 300px;
       margin-bottom: 10px;
       display: inline-block;
       font-size: 16px;
@@ -7718,15 +7720,10 @@ main {
       transition: all 0.2s ease-in; }
       main .description a.button:hover {
         background: #1675be; }
-    main .description p.video a {
-      color: #fff;
-      text-decoration: underline; }
-      main .description p.video a span {
-        margin-right: 10px;
-        margin-top: 10px;
-        font-size: 30px; }
-      main .description p.video a:hover {
-        color: #fff; }
+    main .description a.button-inverse {
+      background: none;
+      border: 1px solid #fff;
+      padding: 12px 0; }
 
 .blur {
   filter: blur(100px);

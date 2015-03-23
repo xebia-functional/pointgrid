@@ -17,6 +17,7 @@
     font-size: $font-size-base;
     letter-spacing: 2px;
     position: relative;
+    text-transform: uppercase;
     
     &:before {
         content: "";

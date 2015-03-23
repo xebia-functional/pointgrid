@@ -65,7 +65,8 @@ main {
         }
         
         a.button {
-            padding: 14px 50px;
+            padding: 14px 0;
+            width: 300px;
             margin-bottom: 10px;
             display: inline-block;
             font-size: 16px;
@@ -82,22 +83,10 @@ main {
             }
         }
         
-        p.video {
-            
-            a {
-                color: #fff;
-                text-decoration: underline;
-                
-                span {
-                    margin-right: 10px;
-                    margin-top: 10px;
-                    font-size: 30px;
-                }
-                
-                &:hover {
-                    color: #fff;
-                }
-            }
+        a.button-inverse {
+            background: none;
+            border: 1px solid #fff;
+            padding: 12px 0;
         }
     }
 }
