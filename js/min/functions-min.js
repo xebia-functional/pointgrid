@@ -1,0 +1,1 @@
+$(window).bind("scroll",function(){$(this).scrollTop()>180?($("header").fadeOut(),checkOffset()):$("header").stop().fadeIn()});

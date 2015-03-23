@@ -1,0 +1,56 @@
+//
+// Navbars
+// --------------------------------------------------
+
+// Wrapper and base class
+//
+// Provide a static navbar from which we expand to create full-width, fixed, and
+// other navbar variations.
+.navbar {
+    border: none;
+}
+
+
+// Brand/project name
+.navbar-brand {
+    padding-left: 45px;
+    font-size: $font-size-base;
+    letter-spacing: 2px;
+    position: relative;
+    
+    &:before {
+        content: "";
+        background-image:     url(../img/logo_pointgrid.svg);
+        width: 17px;
+        height: 17px;
+        background-size: 17px 17px;
+        display: block;
+        position: absolute;
+        left: 15px;
+        top: 26px;
+    }
+}
+
+// Navbar toggle
+//
+// Custom button for toggling the `.navbar-collapse`, powered by the collapse
+// JavaScript plugin.
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: $navbar-padding-horizontal;
+  padding: 9px 10px;
+  @include navbar-vertical-align(34px);
+  background-color: transparent;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: none;
+
+  // Bars
+  .icon-bar {
+    height: 1px;
+  }
+  .icon-bar + .icon-bar {
+    margin-top: 4px;
+  }
+}

@@ -1,0 +1,47 @@
+//
+// Variables
+// --------------------------------------------------
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+$gray-base:             #000 !default;
+$gray-dark:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:          #F5F5F5 !default;
+$brand-primary:         #2290E5 !default;
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:               $gray-lighter !default;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+$font-family-sans-serif:  "futura-pt",sans-serif !default;
+$font-size-base:          18px !default;
+
+$font-size-h2:            floor(($font-size-base * 4.6)) !default;
+$font-size-h3:            $font-size-base !default;
+$headings-font-weight:    400 !default;
+$headings-color:          $gray-base !default;
+
+$line-height-base:        1.6 !default;
+
+//== Navbar
+//
+//##
+
+// Basics of a navbar
+$navbar-height:                    70px !default;
+
+// Inverted navbar
+// Reset inverted navbar basics
+$navbar-inverse-bg:                         rgba($gray-base, 0.5) !default;
+
+// Inverted navbar links
+$navbar-inverse-link-color:                 #fff !default;
+$navbar-inverse-link-hover-color:           darken($navbar-inverse-link-color, 20%) !default;

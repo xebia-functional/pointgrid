@@ -1,0 +1,88 @@
+//
+// Main
+// --------------------------------------------------
+
+main {
+    width: 100%;
+    height: 900px;
+    display: block;
+    position: relative;
+    display: table;
+    background: $gray-base;
+    
+    @media (max-width: $screen-sm-min) {
+        height: 500px;
+    }
+    
+    &:before {
+        content: "";
+        background: url(../img/background_main.jpg) no-repeat;
+        background-position: 50% 0;
+        @include image-size;
+        opacity: 0.55;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .description {
+        position: relative;
+         @extend .animated-home;
+        @extend .fadeInDown;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        color: #fff;
+        z-index: 10;
+        
+        
+        p.subtitle {
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            font-size: 24px;
+            color: rgba(#fff, 0.5);
+            
+            @media (max-width: $screen-sm-min) {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+        }
+        
+        p.title {
+            font-size: 80px;
+            line-height: 105px;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            @media (max-width: $screen-sm-min) {
+                letter-spacing: 0;
+                font-size: 35px;
+                line-height: 40px;
+            }
+        }
+        
+        a.button {
+            padding: 14px 50px;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #fff;
+            background: $brand-primary;
+            @include transition(all .2s ease-in);
+            
+            &:hover {
+                background: darken($brand-primary, 10%);
+            }
+        }
+    }
+}
+
+.blur {
+     @include blur(100px);   
+}

@@ -1,0 +1,20 @@
+//
+// Typography
+// --------------------------------------------------
+
+// Body text
+// -------------------------
+
+p {
+  margin: 0 0 ($line-height-computed / 2);
+}
+
+.lead {
+    font-size: floor(($font-size-base * 1.15));
+    font-weight: 300;
+    color: #fff;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: ($font-size-base * 4.5);
+    }
+}

@@ -1,0 +1,37 @@
+//
+// Footer
+// --------------------------------------------------
+
+footer {
+    padding: 50px 0;
+    background: #F5F5F5;
+    
+    @media (max-width: $screen-sm-min) {
+        padding: 20px 0;
+    }
+    
+    p {
+        margin-bottom: 10px;
+        text-align: center;
+        
+        a {
+            text-decoration: underline;
+            color: $gray-dark;
+            
+            &:hover {
+                text-decoration: none;
+                color: $gray-dark;
+            }
+        }
+    }
+    
+    ul {
+        padding: 0;
+        text-align: center;
+        li {
+            padding: 0 2px;
+            list-style: none;
+            display: inline-block;
+        }
+    }
+}

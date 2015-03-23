@@ -1,0 +1,21 @@
+//
+// Content
+// --------------------------------------------------
+
+section {
+    padding: 100px 0;
+    background: #fff;
+    @media (max-width: $screen-sm-min) {
+        padding: 60px 0;
+    }
+    
+    img {
+        width: 63px;
+        height: auto;
+    }
+    
+    h3 {
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}

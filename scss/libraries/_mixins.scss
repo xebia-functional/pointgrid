@@ -1,0 +1,21 @@
+//
+// Mixins
+// --------------------------------------------------
+
+// Images
+@mixin image-size {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+// Blur
+@mixin blur ($ratio) {
+    filter: blur($ratio);
+    -webkit-filter: blur($ratio);
+    -moz-filter: blur($ratio);
+    -o-filter: blur($ratio);
+    -ms-filter: blur($ratio);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='$ratio');
+}
