@@ -66,6 +66,7 @@ main {
         
         a.button {
             padding: 14px 50px;
+            margin-bottom: 10px;
             display: inline-block;
             font-size: 16px;
             font-weight: 400;
@@ -78,6 +79,24 @@ main {
             
             &:hover {
                 background: darken($brand-primary, 10%);
+            }
+        }
+        
+        p.video {
+            
+            a {
+                color: #fff;
+                text-decoration: underline;
+                
+                span {
+                    margin-right: 10px;
+                    margin-top: 10px;
+                    font-size: 30px;
+                }
+                
+                &:hover {
+                    color: #fff;
+                }
             }
         }
     }

@@ -7704,6 +7704,7 @@ main {
           line-height: 40px; } }
     main .description a.button {
       padding: 14px 50px;
+      margin-bottom: 10px;
       display: inline-block;
       font-size: 16px;
       font-weight: 400;
@@ -7717,6 +7718,15 @@ main {
       transition: all 0.2s ease-in; }
       main .description a.button:hover {
         background: #1675be; }
+    main .description p.video a {
+      color: #fff;
+      text-decoration: underline; }
+      main .description p.video a span {
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 30px; }
+      main .description p.video a:hover {
+        color: #fff; }
 
 .blur {
   filter: blur(100px);
