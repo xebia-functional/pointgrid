@@ -2315,39 +2315,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/eh5v.files\/html5video\/fullscreen.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 341,
-		"inputAbbreviatedPath": "\/eh5v.files\/html5video\/fullscreen.png",
-		"outputAbbreviatedPath": "\/eh5v.files\/html5video\/fullscreen.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/eh5v.files\/html5video\/html5ext.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/eh5v.files\/html5video\/html5ext.js",
-		"outputAbbreviatedPath": "\/eh5v.files\/html5video\/min\/html5ext-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/eh5v.files\/html5video\/Video-02.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 64713,
-		"inputAbbreviatedPath": "\/eh5v.files\/html5video\/Video-02.jpg",
-		"outputAbbreviatedPath": "\/eh5v.files\/html5video\/Video-02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/background_main.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

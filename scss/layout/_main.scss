@@ -19,7 +19,7 @@ main {
         background: url(../img/background_main.jpg) no-repeat;
         background-position: 50% 0;
         @include image-size;
-        opacity: 0.6;
+        opacity: 0.5;
         top: 0;
         left: 0;
         position: fixed;

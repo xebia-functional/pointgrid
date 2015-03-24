@@ -1,5 +1,0 @@
-AddType video/ogg .ogv
-AddType video/mp4 .mp4
-AddType video/mp4 .m4v
-AddType video/webm .webm
-SetEnvIfNoCase Request_URI \.(ogv|mp4|m4v|webm)$ no-gzip dont-vary

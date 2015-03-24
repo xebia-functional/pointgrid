@@ -6987,7 +6987,7 @@ button.close {
     width: 300px; } }
 @media (min-width: 992px) {
   .modal-lg {
-    width: 900px; } }
+    width: 1350px; } }
 .tooltip {
   position: absolute;
   z-index: 1070;
@@ -7669,7 +7669,7 @@ main {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.6;
+    opacity: 0.5;
     top: 0;
     left: 0;
     position: fixed;
