@@ -31,13 +31,13 @@ function generateBreakpoints(breakpointsInfo) {
 }
 
 function handleBreakpointNumberDialog(breakpointsSelect, breakpointsLocationSelect, responseCode) {
-	if (responseCode == 1001) {
+	if (responseCode == 1000) {
 		showBreakpointWidthDialog(breakpointsSelect, breakpointsLocationSelect)
 	}
 }
 
 function handleBreakpointWidthDialogResponse(alert, numberOfBreakpoints, breakpointsLocation, responseCode) {
-	if (responseCode == 1001) {
+	if (responseCode == 1000) {
 		
 		var layoutSelectedArtboard = [selectedArtboard layout]
 		var frameSelectedArtboard = [selectedArtboard frame]
@@ -74,8 +74,8 @@ function showBreakpointNumberDialog() {
 	[alert addTextLabelWithValue:"Where will you place the breakpoints?:"]
   	[alert addAccessoryView: breakpointsLocationSelect]
 
-	[alert addButtonWithTitle:"Cancel"]
 	[alert addButtonWithTitle:"OK"]
+	[alert addButtonWithTitle:"Cancel"]
 
 	var responseCode = [alert runModal]
 
@@ -94,8 +94,8 @@ function showBreakpointWidthDialog(breakpointsSelect, breakpointsLocationSelect)
 		[alert addAccessoryView:control]
 	}
 
-	[alert addButtonWithTitle:"Cancel"]
 	[alert addButtonWithTitle:"OK"]
+	[alert addButtonWithTitle:"Cancel"]
 
 	var responseCode = [alert runModal]
 
