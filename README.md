@@ -4,7 +4,7 @@ This plugin makes it easy to create different breakpoints during a responsive we
 
 ## Installation
 
-There are two different ways to install the plugin into your Sketch app. But before starting the installation, you must to know the Sketch Plugins folder. For that purpose, just click in `Plugins Menu > Reveal Plugins Folder...` Plugins option` from Sketch. Also, you can find it [following these steps](http://bohemiancoding.com/sketch/support/developer/01-introduction/01.html).
+There are two different ways to install the plugin into your Sketch app. But before starting the installation, you must know the location of the Sketch Plugins folder. To do this, just click on `Plugins Menu > Reveal Plugins Folder...` from Sketch. Also, you can find it by [following these steps](http://bohemiancoding.com/sketch/support/developer/01-introduction/01.html).
 
 ### 1. Using git clone
 
@@ -21,9 +21,9 @@ There are two different ways to install the plugin into your Sketch app. But bef
 ## Usage
 
 * Open a new or existing Sketch document
-* Create an artboard object and set the layout settings in order to define the total width of the breakpoint, the number and the width of columns
+* Create an artboard object and set the layout settings in order to define the total width of the breakpoint, the number, and the width of columns
 * After selecting the artboard object, click `Plugins > point-grid-sketch-plugin`
-* Indicate the number of different breakpoint to create and where they will be located (below or on the right of the original)
+* Indicate the number of different breakpoints to create and where they will be located (below or on the right of the original)
 * For each new breakpoint, specify the width
 * The breakpoints should be created on the canvas
 
