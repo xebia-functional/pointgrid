@@ -31,13 +31,13 @@ function generateBreakpoints(breakpointsInfo) {
 }
 
 function handleBreakpointNumberDialog(breakpointsSelect, breakpointsLocationSelect, responseCode) {
-	if (responseCode == 1000) {
+	if (responseCode == okCode) {
 		showBreakpointWidthDialog(breakpointsSelect, breakpointsLocationSelect)
 	}
 }
 
 function handleBreakpointWidthDialogResponse(alert, numberOfBreakpoints, breakpointsLocation, responseCode) {
-	if (responseCode == 1000) {
+	if (responseCode == okCode) {
 		
 		var layoutSelectedArtboard = [selectedArtboard layout]
 		var frameSelectedArtboard = [selectedArtboard frame]
