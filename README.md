@@ -9,7 +9,7 @@ There are two different ways to install the plugin into your Sketch app. But bef
 ### 1. Using git clone
 
 * Open a terminal and navigate to the Sketch plugins folder.
-* Run the command `git clone` https://github.com/47deg/point-grid-sketch-plugin.git
+* Run the command `git clone` https://github.com/47deg/pointgrid.git
 * The plugin is available in the `Plugins Menu > point-grid-sketch-plugin`
 
 ### 2. Downloading the ZIP file
